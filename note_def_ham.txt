@@ -1,0 +1,18 @@
+def clip_outliers_iqr(df, column_name): Xử lý ngoại lệ bằng phương pháp IQR (clip giá trị về ngưỡng hợp lý).
+
+column_summary(df, column_name):In ra thống kê mô tả, giá trị duy nhất và số lượng NaN của một cột trong DataFrame.
+
+0   Age             2863 non-null   int64  
+ 1   Sex             2863 non-null   object 
+ 2   ChestPainType   2863 non-null   object 
+ 3   RestingBP       2804 non-null   float64
+ 4   Cholesterol     2833 non-null   float64
+ 5   FastingBS       2773 non-null   object 
+ 6   RestingECG      2861 non-null   object 
+ 7   MaxHR           2808 non-null   float64
+ 8   ExerciseAngina  2808 non-null   object 
+ 9   Oldpeak         2801 non-null   float64
+ 10  ST_Slope        2554 non-null   object 
+ 11  CA              1334 non-null   float64
+ 12  Thal            1459 non-null   object 
+ 13  Target          2863 non-null   int64  
